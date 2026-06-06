@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wingfoil Board Compare</title>
+    <link rel="stylesheet" href="styles.css?v=20260603-5">
+  </head>
+  <body>
+    <main class="app" aria-labelledby="page-title">
+      <header class="page-header">
+        <div>
+          <p class="eyebrow">Compare</p>
+          <h1 id="page-title">Wingfoil boards</h1>
+        </div>
+      </header>
+
+      <div class="controls-row">
+        <section class="board-controls" aria-labelledby="boards-title">
+          <h2 class="visually-hidden" id="boards-title">Boards</h2>
+          <details class="board-filter" data-board-filter>
+            <summary class="board-filter-summary">
+              <span data-board-filter-summary>All boards selected</span>
+            </summary>
+            <div class="board-filter-menu">
+              <button class="select-all-link" type="button" data-action="select-all">Select all</button>
+              <div class="board-picker" data-board-picker></div>
+            </div>
+          </details>
+        </section>
+
+        <section class="sort-controls" aria-labelledby="sort-title">
+          <h2 class="visually-hidden" id="sort-title">Order</h2>
+          <div class="sort-row">
+            <label class="select-field">
+              <span>Sort by</span>
+              <select data-sort-key>
+                <option value="brand">Brand</option>
+                <option value="original">Recently added</option>
+                <option value="length">Length</option>
+                <option value="width">Width</option>
+                <option value="weight">Weight</option>
+                <option value="volume">Volume</option>
+                <option value="price">Price</option>
+              </select>
+            </label>
+            <label class="select-field">
+              <span>Direction</span>
+              <select data-sort-direction>
+                <option value="asc">Ascending</option>
+                <option value="desc">Descending</option>
+              </select>
+            </label>
+          </div>
+        </section>
+      </div>
+
+      <section class="table-shell" aria-label="Board comparison">
+        <div class="table-scroll" tabindex="0">
+          <table class="compare-table" data-compare-table>
+            <caption>Wingfoil board comparison</caption>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js?v=20260603-5"></script>
+  </body>
+</html>
