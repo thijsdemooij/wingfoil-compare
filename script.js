@@ -11,15 +11,15 @@ const boards = [
     price: null,
   },
   {
-    id: "kt-drifter-4-100",
+    id: "kt-drifter-4-90",
     brand: "KT",
     name: "KT Drifter 4",
-    image: "assets/boards/kt-drifter-4-100.png",
-    volume: "100 L",
-    length: "6'1\" (185.4 cm)",
-    width: "27.25\" (69.2 cm)",
-    weight: "6.5 kg",
-    price: "€ 1795",
+    image: "assets/boards/kt-drifter-4-90.png",
+    volume: "90 L",
+    length: "5'10\" (177.8 cm)",
+    width: "26.25\" (66.7 cm)",
+    weight: "6.0 kg",
+    price: "€ 1.439,00",
   },
   {
     id: "skybrid-sls-2026-100",
@@ -77,15 +77,15 @@ const boards = [
     price: "€1,199.00 (met tas)",
   },
   {
-    id: "kt-drifter-5-pro-carbon-100",
+    id: "kt-drifter-5-pro-carbon-90",
     brand: "KT",
     name: "KT Drifter 5 Pro Carbon",
-    image: "assets/boards/kt-drifter-5-pro-carbon-100.jpg",
-    volume: "100 L",
-    length: "6'1\" (185.4 cm)",
-    width: "26.85\" (68.2 cm)",
-    weight: "6.2 kg",
-    price: "€ 2.230,00",
+    image: "assets/boards/kt-drifter-5-pro-carbon-90.jpg",
+    volume: "90 L",
+    length: "5'11\" (180.3 cm)",
+    width: "25\" (63.5 cm)",
+    weight: "5.6 kg",
+    price: "€ 2.205,00",
   },
   {
     id: "kt-arc-pro-carbon-98",
@@ -134,8 +134,8 @@ const originalOrder = new Map(boards.map((board, index) => [board.id, index]));
 const storageKey = "wingfoil-compare-visible-boards";
 const selectionMigrationStorageKey = "wingfoil-compare-selection-migration";
 const selectionIdReplacements = new Map([
-  ["kt-drifter-4-90", "kt-drifter-4-100"],
-  ["kt-drifter-5-pro-carbon-90", "kt-drifter-5-pro-carbon-100"],
+  ["kt-drifter-4-100", "kt-drifter-4-90"],
+  ["kt-drifter-5-pro-carbon-100", "kt-drifter-5-pro-carbon-90"],
   ["f-one-rocket-midlength-carbon-95", "f-one-rocket-midlength-carbon-105"],
 ]);
 const selectionIdRemovals = new Set(["f-one-midlenth-105"]);
@@ -147,8 +147,8 @@ const sortMigrationKey = "default-brand-order";
 const preferredBrandOrder = ["KT"];
 const preferredBrandBoardOrder = [
   "kt-drifter-105",
-  "kt-drifter-4-100",
-  "kt-drifter-5-pro-carbon-100",
+  "kt-drifter-4-90",
+  "kt-drifter-5-pro-carbon-90",
 ];
 const picker = document.querySelector("[data-board-picker]");
 const boardFilterSummary = document.querySelector("[data-board-filter-summary]");
