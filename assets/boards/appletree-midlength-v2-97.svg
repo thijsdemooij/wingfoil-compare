@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 220" role="img" aria-label="Appletree Midlength V2 board placeholder">
+  <rect width="520" height="220" fill="#eef3f4"/>
+  <path d="M54 111 C91 30 405 36 466 103 C481 119 455 140 399 155 C278 189 98 180 54 111Z" fill="#1f1f1f"/>
+  <path d="M78 110 C115 55 393 60 444 104 C455 113 438 127 394 139 C279 171 121 160 78 110Z" fill="#c9d7d9"/>
+  <path d="M101 110 C149 80 343 79 416 105" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity=".7"/>
+  <text x="260" y="194" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#111">Midlength V2 97L</text>
+</svg>
