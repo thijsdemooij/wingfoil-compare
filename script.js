@@ -41,7 +41,7 @@ const boards = [
     length: "5'7\" (170 cm)",
     width: "24\" (61 cm)",
     weight: null,
-    price: "€ 1.999,00",
+    price: "€ 1.899,00",
   },
   {
     id: "midlength-v2-97",
@@ -52,7 +52,7 @@ const boards = [
     length: "6'9\" (206 cm)",
     width: "19.8\" (50.3 cm)",
     weight: null,
-    price: "€ 1.999,00",
+    price: "€ 2.199,00",
   },
   {
     id: "flygroove-95",
