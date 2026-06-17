@@ -33,13 +33,24 @@ const boards = [
     price: "€ 1949",
   },
   {
-    id: "skipper-midlength-97",
+    id: "appleslice-v4-100",
     brand: "Apple Tree",
-    name: "Skipper Midlength",
-    image: "assets/boards/skipper-midlength-97.png",
+    name: "AppleSlice V4",
+    image: "https://appletreesurfboards.com/wp-content/uploads/Appleslice-V4-Deck-600x600.png",
+    volume: "100 L",
+    length: "5'9\" (175 cm)",
+    width: "25\" (63.5 cm)",
+    weight: null,
+    price: "€ 1.999,00",
+  },
+  {
+    id: "midlength-v2-97",
+    brand: "Apple Tree",
+    name: "Midlength V2",
+    image: "https://appletreesurfboards.com/wp-content/uploads/Midlenght-V2-deck-4-scaled.png",
     volume: "97 L",
-    length: "6'8\" (203 cm)",
-    width: "21\" (53.3 cm)",
+    length: "6'9\" (206 cm)",
+    width: "19.8\" (50.3 cm)",
     weight: null,
     price: "€ 1.999,00",
   },
@@ -160,6 +171,7 @@ const selectionIdReplacements = new Map([
   ["kt-drifter-4-100", "kt-drifter-4-90"],
   ["kt-drifter-5-pro-carbon-100", "kt-drifter-5-pro-carbon-90"],
   ["f-one-rocket-midlength-carbon-95", "f-one-rocket-midlength-carbon-105"],
+  ["skipper-midlength-97", "midlength-v2-97"],
 ]);
 const selectionIdRemovals = new Set(["f-one-midlenth-105"]);
 const selectionMigrationKey = "appletree-2026-additions";
