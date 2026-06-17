@@ -36,7 +36,7 @@ const boards = [
     id: "appleslice-v4-100",
     brand: "Apple Tree",
     name: "AppleSlice V4",
-    image: "https://appletreesurfboards.com/wp-content/uploads/Appleslice-V4-Deck-600x600.png",
+    image: "assets/boards/Appleslice-V4-Deck-1536x1536.png",
     volume: "100 L",
     length: "5'9\" (175 cm)",
     width: "25\" (63.5 cm)",
@@ -47,35 +47,12 @@ const boards = [
     id: "midlength-v2-97",
     brand: "Apple Tree",
     name: "Midlength V2",
-    image: "https://appletreesurfboards.com/wp-content/uploads/Midlenght-V2-deck-4-scaled.png",
+    image: "assets/boards/Midlenght-V2-deck-4-1536x1536.png",
     volume: "97 L",
     length: "6'9\" (206 cm)",
     width: "19.8\" (50.3 cm)",
     weight: null,
     price: "€ 1.999,00",
-  },
-
-  {
-    id: "appletree-appleslice-v4-90",
-    brand: "Appletree",
-    name: "Appletree AppleSlice V4",
-    image: "assets/boards/appletree-appleslice-v4-90.svg",
-    volume: "90 L",
-    length: "5'7\" (170 cm)",
-    width: "24\" (61 cm)",
-    weight: null,
-    price: "€ 1.699,00",
-  },
-  {
-    id: "appletree-midlength-v2-97",
-    brand: "Appletree",
-    name: "Appletree Midlength V2",
-    image: "assets/boards/appletree-midlength-v2-97.svg",
-    volume: "97 L",
-    length: "6'9\" (206 cm)",
-    width: "19.8\" (50.3 cm)",
-    weight: null,
-    price: "€ 1.749,00",
   },
   {
     id: "flygroove-95",
@@ -175,7 +152,7 @@ const selectionIdReplacements = new Map([
 ]);
 const selectionIdRemovals = new Set(["f-one-midlenth-105"]);
 const selectionMigrationKey = "appletree-2026-additions";
-const newlyAddedBoardIds = ["appletree-appleslice-v4-90", "appletree-midlength-v2-97"];
+const newlyAddedBoardIds = ["appleslice-v4-100", "midlength-v2-97"];
 const sortStorageKey = "wingfoil-compare-sort";
 const sortMigrationStorageKey = "wingfoil-compare-sort-migration";
 const sortMigrationKey = "default-brand-order";
