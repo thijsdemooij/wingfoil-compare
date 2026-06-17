@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 220" role="img" aria-label="Appletree AppleSlice V4 board placeholder">
+  <rect width="520" height="220" fill="#f7f3ec"/>
+  <path d="M70 112 C92 38 394 34 450 96 C468 117 447 147 397 164 C279 203 104 180 70 112Z" fill="#1f1f1f"/>
+  <path d="M92 110 C116 62 372 54 431 99 C445 109 439 127 407 139 C288 181 130 158 92 110Z" fill="#d9c7aa"/>
+  <path d="M117 109 C157 85 332 78 397 103" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity=".7"/>
+  <text x="260" y="194" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#111">AppleSlice V4 90L</text>
+</svg>
